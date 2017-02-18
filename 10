@@ -1,0 +1,15 @@
+# This is Python 2 import sys
+
+while True:
+
+try: (a, b) = raw_input().split(" ") if not (a.islower() and b.islower()): print '0' else: if (len(a) != len(b)) or (a == b): print 'false' else: if sorted (list (a)) == sorted (list(b)): print ('true') else:
+
+print ('false')
+
+except ValueError:
+
+print '0' except Exception: exit (0)
+
+except (KeyboardInterrupt, SystemExit):
+
+exit (0)
